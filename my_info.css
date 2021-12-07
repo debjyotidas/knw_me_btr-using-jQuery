@@ -1,0 +1,84 @@
+
+.head {
+    font-size: 50px;
+    color: #022845;
+    font-family: Bree serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cont {
+    background-color: #677c8b;
+    border-radius: 10px;
+    border-color: #313233;
+    border-style: solid;
+    padding: 0px;
+    background-size: cover;
+    margin: auto;
+
+}
+
+.edu_head1 {
+    color: #055702;
+    font-family: Bree serif;
+    font-weight: bold;
+
+}
+
+.edu_head2 {
+    color: #055702;
+    font-family: Bree serif;
+    font-weight: bold;
+
+}
+
+.edu_head3 {
+    color: #055702;
+    font-family: Bree serif;
+    font-weight: bold;
+
+}
+
+.edu_head4 {
+    color: #055702;
+    font-family: Bree serif;
+    font-weight: bold;
+
+}
+
+.pic {
+    width: 34vw;
+    height: 42vh;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.all_list {
+    list-style: square;
+}
+
+.lis {
+    font-weight: bold;
+    font-family: roboto;
+    padding-bottom: 7px;
+    font-size: large;
+}
+
+.bg_cont {
+    background-image: linear-gradient(to bottom, #ffee8f, #ba4a8f);
+    background-size: cover;
+    height: 250vh;
+    text-align: center;
+
+
+}
+#entry {
+    width: 150px;
+    height: 40px;
+    font-family: Comic Sans MS;
+    font-size: 23px;
+    background-color: #001a66;
+    color: whitesmoke;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="my_info.css">
+
+    <script>
+        
+        $(document).ready(function () {
+            $('ol').hide();
+            $('h1').hide();
+            $('.cont').mouseover(function(){    
+                $(this).css('background-color','#4d545c');
+            });
+            $('.cont').mouseleave(function(){    
+                $(this).css('background-color','#677c8b');
+            });
+            $('button').click(function(){
+			$('h1').toggle(1000);
+            $(this).fadeOut(1000);
+		    });
+            $('.edu_head1').mouseover(function(){
+					$('ol').eq(0).fadeToggle(3000);
+					// $('#blurid').fadeToggle(1000);$("li").eq(2).
+				});
+            $('.edu_head2').mouseover(function(){
+					$('ol').eq(1).fadeToggle(3000);
+					// $('#blurid').fadeToggle(1000);$("li").eq(2).
+				});    
+			
+                $('.edu_head3').mouseover(function(){
+					$('ol').eq(2).fadeToggle(3000);
+					// $('#blurid').fadeToggle(1000);$("li").eq(2).
+				});
+                
+                $('.edu_head4').mouseover(function(){
+					$('ol').eq(3).fadeToggle(3000);
+					// $('#blurid').fadeToggle(1000);$("li").eq(2).
+				});
+			$('h2').mouseover(function () {
+							$(this).css('color','#1b11d4');
+					});
+
+			 $('h2').mouseleave(function (data) {
+			 			$(this).css('color','#055702');
+			 		});
+             $('.cont').click(function(){
+                        $('img').toggle(5000, function () {
+					$('img').append('fadeIn() completed.')
+				});       
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+    <div class="bg_cont">
+        <button id="entry" onclick="getDetails()">Click Here</button>
+        <h1 class="head m-3">Want To know <span><a href="https://drive.google.com/file/d/1w-mk-McKJw36uPF-wmm2PvjqB1SFw3LD/view?usp=sharing">Me</a></span> Better?</h1>
+        <div class="cont m-5 p-3 shadow">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <h2 class="edu_head1">Education:</h2>
+                        <ol class="all_list">
+                            <li class="lis">Rajkamal Saraswati Vidya Mandir</li>
+                            <li class="lis">GMIT</li>
+                            <li class="lis">Amrita Vishwa Vidyapeetham</li>
+                        </ol>
+                    </div>
+                    <div class="col-6">
+                        <img src="https://image.freepik.com/free-vector/happy-kids-running-outside-near-school-isolated-flat-vector-illustration-cartoon-children-going-along-road-school-entrance-education-childhood-concept_74855-13113.jpg" class="pic" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cont m-5 p-3 shadow">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <h2 class="edu_head2">Hobbies:</h2>
+                        <ol class="all_list">
+                            <li class="lis">Cricket</li>
+                            <li class="lis">Fitness</li>
+                            <li class="lis">Watching Movies</li>
+                            <li class="lis">Travelling & Shopping</li>
+                        </ol>
+                    </div>
+                    <div class="col-6">
+                        <img src="https://image.freepik.com/free-vector/organic-flat-design-about-me-concept_23-2148905881.jpg" class="pic" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cont m-5 p-3 shadow">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <h2 class="edu_head3">Skills Known:</h2>
+                        <ol class="all_list">
+                            <li class="lis">HTML</li>
+                            <li class="lis">CSS</li>
+                            <li class="lis">JS & jQuery</li>
+                            <li class="lis">Python</li>
+                            <li class="lis">C </li>
+                            <li class="lis">Bootstrap</li>
+                        </ol>
+                    </div>
+                    <div class="col-6">
+                        <img src="https://image.freepik.com/free-vector/isometric-people-working-with-technology_52683-19078.jpg" class="pic" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cont  m-5 p-3 shadow">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <h2 class="edu_head4">Favourite Places:</h2>
+                        <ol class="all_list">
+                            <li class="lis">Taj Mahal</li>
+                            <li class="lis">Mysore Temple</li>
+                            <li class="lis">Kedarnath Temple</li>
+                            <li class="lis">Brihadisvara Temple</li>
+
+                        </ol>
+                    </div>
+                    <div class="col-6">
+                        <img src="https://image.freepik.com/free-photo/beautiful-closeup-shot-taj-mahal-building-agra-india-cloudy-sky_181624-23088.jpg" class="pic" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
